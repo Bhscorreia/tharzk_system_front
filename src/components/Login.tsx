@@ -2,7 +2,7 @@ import React from 'react';
 import './Login.css';
 
 const Login = () => {
-  const handleSubmit = (e) => {
+    const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     // Aqui você pode adicionar a lógica de autenticação
     // Por enquanto, apenas impede o comportamento padrão do formulário
